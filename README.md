@@ -14,7 +14,7 @@ make sure to mask spaces in station names with a backslash or put station name i
 
 # example
 
-> /demon.py essen "Abzweig Aktienstr" 25 --platform 1,2 --rows 5
+> ./demon.py essen "Abzweig Aktienstr" 25 --platform 1,2 --rows 5
 >
 > 105&nbsp;&nbsp;&nbsp;&nbsp;Finefraustraße&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28 min</br>
 > 104&nbsp;&nbsp;&nbsp;&nbsp;Mülheim Hauptfriedhof&nbsp;&nbsp;28 min</br> 
