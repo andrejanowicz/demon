@@ -10,8 +10,8 @@
 
 __author__ = 'André Janowicz'
 __email__ = 'andre.janowicz@rub.de'
-__version__ = '0.1'
-__copyright__ = '2015, André Janowicz'
+__version__ = '0.2'
+__copyright__ = '2022, André Janowicz'
 __license__ = 'GPLv3'
 
 import argparse
@@ -33,10 +33,6 @@ parser.add_argument('-p', '--platforms', type=str,
                     help='comma seperated list of platforms')
 parser.add_argument('-r', '--rows', default=3, type=int,
                     help='number of rows to display, default is 3, max is 40')
-parser.add_argument('-c', '--color', default='yellow', type=str,
-                    help='textcolor, available colors are: '
-                    'black, red, green, yellow, blue, purple cyan and white. '
-                    'Default is yellow.')
 
 args = parser.parse_args()
 
@@ -72,33 +68,8 @@ rows = args.rows
 result = False
 
 # Colors
-black = '\033[0;30m'
-red = '\033[0;31m'
-green = '\033[0;32m'
 yellow = '\033[0;33m'
-blue = '\033[0;34m'
-purple = '\033[0;35m'
-cyan = '\033[0;36m'
-white = '\033[0;37m'
-# High Intensity
-IBlack = '\033[0;90m'
-IRed = '\033[0;91m'
-IGreen = '\033[0;92m'
-IYellow = '\033[0;93m'
-IBlue = '\033[0;94m'
-IPurple = '\033[0;95m'
-ICyan = '\033[0;96m'
-IWhite = '\033[0;97m'
-# Bold
-BBlack = '\033[1;30m'
-BRed = '\033[1;31m'
-BGreen = '\033[1;32m'
 BYellow = '\033[1;33m'
-BBlue = '\033[1;34m'
-BPurple = '\033[1;35m'
-BCyan = '\033[1;36m'
-BWhite = '\033[1;37m'
-
 reset = '\033[0m'
 
 foreground = yellow
