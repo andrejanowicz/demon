@@ -8,7 +8,7 @@ Demon is a <b>dep</b>arture <b>mon</b>itor written in python. It connects to VRR
 > chmod +x demon.py
 
 # usage
-> ./demon.py city station offset --platform 1,2,3,n --rows 5
+> ./demon.py city "station name" offset_in_minutes --platform 1,2,3,n --rows 5
 
 make sure to mask spaces in station names with a backslash or put station name in quotation marks.
 
